@@ -8,7 +8,7 @@ interface AutoSyncConfig {
     intervalMinutes: number;
     autoMerge: boolean;
     notifyOnUpdates: boolean;
-    runOnStartup: boolean;
+    runOnStartup: boolean; 
 }
 
 export class AutoSyncService {
